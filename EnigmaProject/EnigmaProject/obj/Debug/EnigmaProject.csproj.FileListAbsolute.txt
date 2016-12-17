@@ -1,0 +1,19 @@
+c:\users\sonbi\documents\visual studio 2015\Projects\EnigmaProject\EnigmaProject\bin\Debug\EnigmaProject.exe.config
+c:\users\sonbi\documents\visual studio 2015\Projects\EnigmaProject\EnigmaProject\bin\Debug\EnigmaProject.exe
+c:\users\sonbi\documents\visual studio 2015\Projects\EnigmaProject\EnigmaProject\bin\Debug\EnigmaProject.pdb
+c:\users\sonbi\documents\visual studio 2015\Projects\EnigmaProject\EnigmaProject\obj\Debug\EnigmaProject.csprojResolveAssemblyReference.cache
+c:\users\sonbi\documents\visual studio 2015\Projects\EnigmaProject\EnigmaProject\obj\Debug\MainWindow.g.cs
+c:\users\sonbi\documents\visual studio 2015\Projects\EnigmaProject\EnigmaProject\obj\Debug\App.g.cs
+c:\users\sonbi\documents\visual studio 2015\Projects\EnigmaProject\EnigmaProject\obj\Debug\EnigmaProject_MarkupCompile.cache
+c:\users\sonbi\documents\visual studio 2015\Projects\EnigmaProject\EnigmaProject\obj\Debug\EnigmaProject_MarkupCompile.lref
+c:\users\sonbi\documents\visual studio 2015\Projects\EnigmaProject\EnigmaProject\obj\Debug\MainWindow.baml
+c:\users\sonbi\documents\visual studio 2015\Projects\EnigmaProject\EnigmaProject\obj\Debug\EnigmaProject.g.resources
+c:\users\sonbi\documents\visual studio 2015\Projects\EnigmaProject\EnigmaProject\obj\Debug\EnigmaProject.Properties.Resources.resources
+c:\users\sonbi\documents\visual studio 2015\Projects\EnigmaProject\EnigmaProject\obj\Debug\EnigmaProject.csproj.GenerateResource.Cache
+c:\users\sonbi\documents\visual studio 2015\Projects\EnigmaProject\EnigmaProject\obj\Debug\EnigmaProject.exe
+c:\users\sonbi\documents\visual studio 2015\Projects\EnigmaProject\EnigmaProject\obj\Debug\EnigmaProject.pdb
+C:\Users\sonbi\documents\visual studio 2015\Projects\EnigmaProject\EnigmaProject\obj\Debug\ShowSetting.g.cs
+C:\Users\sonbi\documents\visual studio 2015\Projects\EnigmaProject\EnigmaProject\obj\Debug\ShowSetting.baml
+E:\BACKUP\Projects\EnigmaProject\EnigmaProject\bin\Debug\EnigmaProject.exe.config
+E:\BACKUP\Projects\EnigmaProject\EnigmaProject\obj\Debug\EnigmaProject.exe
+E:\BACKUP\Projects\EnigmaProject\EnigmaProject\obj\Debug\EnigmaProject.pdb

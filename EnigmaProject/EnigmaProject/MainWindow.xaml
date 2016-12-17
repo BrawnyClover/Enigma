@@ -1,0 +1,45 @@
+﻿<Window x:Class="EnigmaProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EnigmaProject"
+        mc:Ignorable="d"
+        Title="Enigma ver 1.0" Height="380" Width="525">
+    <Grid Background="#CCCCCC" MouseDown="Grid_MouseDown" Margin="0,0,-0.333,-16.333">
+        <ComboBox x:Name="Rotor1" HorizontalAlignment="Left" Margin="36,37,0,0" VerticalAlignment="Top" Width="277" Height="19" SelectionChanged="Rotor1_SelectionChanged"/>
+        <ComboBox x:Name="Rotor2" HorizontalAlignment="Left" Margin="36,60,0,0" VerticalAlignment="Top" Width="277" Height="19" SelectionChanged="Rotor2_SelectionChanged"/>
+        <ComboBox x:Name="Rotor3" HorizontalAlignment="Left" Margin="36,83,0,0" VerticalAlignment="Top" Width="277" Height="19" SelectionChanged="Rotor3_SelectionChanged"/>
+
+        <TextBox x:Name="StartingChar1" HorizontalAlignment="Left" Height="19" Margin="38,125,0,0" TextWrapping="Wrap" Text="A" VerticalAlignment="Top" Width="19" GotFocus="Text_MouseDown"/>
+        <TextBox x:Name="StartingChar2" HorizontalAlignment="Left" Height="19" Margin="69,125,0,0" TextWrapping="Wrap" Text="A" VerticalAlignment="Top" Width="19" GotFocus="Text_MouseDown"/>
+        <TextBox x:Name="StartingChar3" HorizontalAlignment="Left" Height="19" Margin="99,125,0,0" TextWrapping="Wrap" Text="A" VerticalAlignment="Top" Width="19" GotFocus="Text_MouseDown"/>
+
+        <TextBox x:Name="distributer1" HorizontalAlignment="Left" Height="25" Margin="344,38,0,0" TextWrapping="Wrap" Text="A" VerticalAlignment="Top" Width="22" GotFocus="Text_MouseDown"/>
+        <TextBox x:Name="to_distributer1" HorizontalAlignment="Left" Height="25" Margin="385,38,0,0" TextWrapping="Wrap" Text="A" VerticalAlignment="Top" Width="23" GotFocus="Text_MouseDown"/>
+        <TextBox x:Name="distributer2" HorizontalAlignment="Left" Height="25" Margin="344,72,0,0" TextWrapping="Wrap" Text="A" VerticalAlignment="Top" Width="22" GotFocus="Text_MouseDown"/>
+        <TextBox x:Name="to_distributer2" HorizontalAlignment="Left" Height="25" Margin="385,72,0,0" TextWrapping="Wrap" Text="A" VerticalAlignment="Top" Width="23" GotFocus="Text_MouseDown"/>
+        <TextBox x:Name="distributer3" HorizontalAlignment="Left" Height="25" Margin="344,106,0,0" TextWrapping="Wrap" Text="A" VerticalAlignment="Top" Width="22" GotFocus="Text_MouseDown"/>
+        <TextBox x:Name="to_distributer3" HorizontalAlignment="Left" Height="25" Margin="385,106,0,0" TextWrapping="Wrap" Text="A" VerticalAlignment="Top" Width="23" GotFocus="Text_MouseDown"/>
+        <TextBox x:Name="distributer4" HorizontalAlignment="Left" Height="25" Margin="428,38,0,0" TextWrapping="Wrap" Text="A" VerticalAlignment="Top" Width="22" GotFocus="Text_MouseDown"/>
+        <TextBox x:Name="to_distributer4" HorizontalAlignment="Left" Height="25" Margin="469,38,0,0" TextWrapping="Wrap" Text="A" VerticalAlignment="Top" Width="23" GotFocus="Text_MouseDown"/>
+        <TextBox x:Name="distributer5" HorizontalAlignment="Left" Height="25" Margin="428,74,0,0" TextWrapping="Wrap" Text="A" VerticalAlignment="Top" Width="22" GotFocus="Text_MouseDown"/>
+        <TextBox x:Name="to_distributer5" HorizontalAlignment="Left" Height="25" Margin="469,74,0,0" TextWrapping="Wrap" Text="A" VerticalAlignment="Top" Width="23" GotFocus="Text_MouseDown"/>
+
+        <TextBox x:Name="input_box" HorizontalAlignment="Left" Height="52" Margin="37,160,0,0" TextWrapping="Wrap" Text="Input" VerticalAlignment="Top" Width="288" GotFocus="Text_MouseDown"/>
+        <TextBox x:Name="output_box" HorizontalAlignment="Left" Height="52" Margin="37,230,0,0" TextWrapping="Wrap" Text="output" VerticalAlignment="Top" Width="288" GotFocus="Text_MouseDown"/>
+
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="15" Margin="369,44,0,0" TextWrapping="Wrap" Text="To" VerticalAlignment="Top" Width="14"/>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Height="15" Margin="369,78,0,0" TextWrapping="Wrap" Text="To" VerticalAlignment="Top" Width="14"/>
+        <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Height="15" Margin="369,111,0,0" TextWrapping="Wrap" Text="To" VerticalAlignment="Top" Width="14"/>
+        <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Height="15" Margin="453,80,0,0" TextWrapping="Wrap" Text="To" VerticalAlignment="Top" Width="14"/>
+        <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" Height="15" Margin="453,44,0,0" TextWrapping="Wrap" Text="To" VerticalAlignment="Top" Width="14"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="16" Margin="36,18,0,0" TextWrapping="Wrap" Text="Select Rotor" VerticalAlignment="Top" Width="154"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Height="21" Margin="38,106,0,0" TextWrapping="Wrap" Text="Select Starting Character" VerticalAlignment="Top" Width="159"/>
+
+        <Button x:Name="button" Content="Convert" HorizontalAlignment="Left" Height="51" Margin="352,161,0,0" VerticalAlignment="Top" Width="119" Click="button_Click"  GotFocus="button_Click"/>
+        <Button x:Name="Reset" Content="Reset" HorizontalAlignment="Left" Height="48" Margin="352,232,0,0" VerticalAlignment="Top" Width="119" Click="Reset_Click"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="20" Margin="37,295,0,0" TextWrapping="Wrap" Text="CopyBox" VerticalAlignment="Top" Width="288" GotFocus="Text_MouseDown"/>
+        <Button x:Name="setout" Content="setout" HorizontalAlignment="Left" Height="39" Margin="353,299,0,0" VerticalAlignment="Top" Width="110" Click="setout_Click"/>
+    </Grid>
+</Window>
